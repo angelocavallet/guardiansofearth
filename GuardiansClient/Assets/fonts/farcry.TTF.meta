@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d86a1a4322014eb4e85f1c51bbe7686b
+timeCreated: 1498337668
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FarCry
+  fontNames:
+  - FarCry
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

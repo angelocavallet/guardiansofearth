@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a1cb257-6625-4345-8af3-628f966d73b0" name="Default" comment="" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/module/MyAuth/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/MyAuth/src/Adapter/OAuth2AdapterFactory.php" />
+        <option value="$PROJECT_DIR$/config/autoload/zf-mvc-auth-oauth2-override.global.php" />
+        <option value="$PROJECT_DIR$/data/users.htpasswd" />
+        <option value="$PROJECT_DIR$/config/modules.config.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Usuario/UsuarioCollection.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Partida/PartidaCollection.php" />
+        <option value="$PROJECT_DIR$/vendor/zfcampus/zf-mvc-auth/src/Authentication/HttpAdapter.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Authentication/Adapter/HttpPdoAdapter.php" />
+        <option value="$PROJECT_DIR$/config/autoload/global.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Authentication/Adapter/HttpAdapter.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Factory/AuthHttpPdoAdapterFactory.php" />
+        <option value="$PROJECT_DIR$/vendor/zendframework/zend-authentication/src/Adapter/Http/FileResolver.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Authentication/PdoResolver.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Factory/AuthenticationListenerFactory.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Factory/AuthenticationAdapterFactory.php" />
+        <option value="$PROJECT_DIR$/config/autoload/local.php" />
+        <option value="$PROJECT_DIR$/vendor/zfcampus/zf-mvc-auth/src/Module.php" />
+        <option value="$PROJECT_DIR$/vendor/zfcampus/zf-mvc-auth/src/MvcAuthEvent.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/Usuario.php" />
+        <option value="$PROJECT_DIR$/vendor/zfcampus/zf-mvc-auth/src/Authentication/DefaultAuthenticationListener.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Partida/PartidaResourceFactory.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/Module.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Usuario/UsuarioResourceFactory.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/TipoBaralho.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/Carta.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/Baralho.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/CartasBaralho.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/Partida.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/Rodada.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Rodada/RodadaCollection.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Rodada/RodadaResourceFactory.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Listener/ApiAuthenticationListener.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Authentication/Adapter/HeaderAuthentication.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/Item.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/Equipamento.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/PilhaCarta.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/Entity/Registro.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Carta/CartaCollection.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Registro/RegistroCollection.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Carta/CartaResourceFactory.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Registro/RegistroResourceFactory.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Registro/RegistroResource.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Item/ItemCollection.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Carta/CartaResource.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Item/ItemResourceFactory.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Item/ItemResource.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Usuario/UsuarioResource.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Rodada/RodadaResource.php" />
+        <option value="$PROJECT_DIR$/module/Guardians/src/V1/Rest/Partida/PartidaResource.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-apigility-admin-ui/package.json" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-apigility/asset/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-apigility-admin" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-mvc-auth" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-rest" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-apigility-provider" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-composer-autoloading" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-rpc" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-deploy" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-configuration" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-content-negotiation" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-content-validation" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-hal" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-apigility" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-apigility-documentation" />
+      <path value="$PROJECT_DIR$/vendor/bshaffer/oauth2-server-php" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-api-problem" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-oauth2" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-console" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-asset-manager" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-development-mode" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-versioning" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-apigility-admin-ui" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-orm-module" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-module" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-http" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-math" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-permissions-rbac" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-hydrator" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-modulemanager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-cache" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-permissions-acl" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-debug" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-inputfilter" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-console" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-developer-tools" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-authentication" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/kherge/version" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-router" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-loader" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-form" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-crypt" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-paginator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-config" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-view" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-db" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-component-installer" />
+      <path value="$PROJECT_DIR$/vendor/herrera-io/json" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-filter" />
+      <path value="$PROJECT_DIR$/vendor/herrera-io/phar-update" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-uri" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-validator" />
+      <path value="$PROJECT_DIR$/vendor/michelf/php-markdown" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-41" />
+    <option name="y" value="-20" />
+    <option name="width" value="1378" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="guardiansWS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guardiansWS" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="AuthenticationService&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b28cbbcd-6c9d-4386-b7d5-01dd540641d9" name="Default" comment="" />
+      <created>1496359716846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1496359716846</updated>
+      <workItem from="1496359726231" duration="19918000" />
+      <workItem from="1496429602149" duration="5885000" />
+      <workItem from="1496617385704" duration="661000" />
+      <workItem from="1496620944251" duration="15893000" />
+      <workItem from="1496707098160" duration="16459000" />
+      <workItem from="1496792495435" duration="12148000" />
+      <workItem from="1496962814442" duration="33504000" />
+      <workItem from="1497663683508" duration="165000" />
+      <workItem from="1497835013298" duration="141000" />
+      <workItem from="1497841907645" duration="3421000" />
+      <workItem from="1497920157000" duration="7284000" />
+      <workItem from="1498003074470" duration="5266000" />
+      <workItem from="1498185091122" duration="5975000" />
+      <workItem from="1498357180472" duration="5578000" />
+      <workItem from="1498457001771" duration="575000" />
+      <workItem from="1498522510594" duration="3161000" />
+      <workItem from="1529818166337" duration="2694000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="626000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15080526" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/development.config.php.dist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/modules.config.old">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/modules.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/global-development.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-authentication/src/Result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="73" column="20" selection-start-line="73" selection-start-column="20" selection-end-line="73" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-mvc/src/MvcEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-799">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zfcampus/zf-mvc-auth/src/MvcAuthEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zendframework/zend-eventmanager/src/ListenerAggregateInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/doctrine-orm-module/src/DoctrineORMModule/Service/ObjectSelectFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/orm/lib/Doctrine/ORM/Event/LoadClassMetadataEventArgs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="31" column="76" selection-start-line="31" selection-start-column="76" selection-end-line="31" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zfcampus/zf-mvc-auth/src/Authentication/AdapterInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zfcampus/zf-mvc-auth/src/Authentication/DefaultAuthenticationListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2139">
+          <caret line="188" column="10" selection-start-line="188" selection-start-column="10" selection-end-line="188" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zfcampus/zf-mvc-auth/src/Identity/GuestIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zfcampus/zf-mvc-auth/src/Identity/AuthenticatedIdentity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="45" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="97" column="29" lean-forward="true" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Usuario/UsuarioResourceFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Factory/AuthenticationAdapterFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" column="39" lean-forward="true" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/Rodada.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/TipoBaralho.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/zfcampus/zf-rest/src/AbstractResourceListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2227">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="71" lean-forward="true" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Listener/ApiAuthenticationListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="55" column="1" lean-forward="true" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Authentication/Adapter/HeaderAuthentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="24" selection-end-line="93" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-end-line="74" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Rodada/RodadaCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/Carta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Usuario/UsuarioCollection.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Rodada/RodadaResourceFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Registro/RegistroResourceFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Registro/RegistroCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Carta/CartaResourceFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/Registro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/Equipamento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Carta/CartaCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/Rodada.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="64" column="7" selection-start-line="64" selection-start-column="7" selection-end-line="64" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/Item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/CartasBaralho.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Partida/PartidaCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Partida/PartidaResourceFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Item/ItemResourceFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Item/ItemCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/Partida.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/PilhaCarta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/Entity/Baralho.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Carta/CartaResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Item/ItemResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+          <folding>
+            <element signature="e#41#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Usuario/UsuarioResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Registro/RegistroResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+          <folding>
+            <element signature="e#45#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Rodada/RodadaResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5389">
+          <caret line="321" column="71" selection-start-line="321" selection-start-column="71" selection-end-line="321" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Guardians/src/V1/Rest/Partida/PartidaResource.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
+          <folding>
+            <element signature="e#44#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
