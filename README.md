@@ -2,9 +2,7 @@
 
 ## Sobre
 Repositorio do card game online Guardians Of Earth.  
-
 Desenvolvido em 2016 para a monografia do curso de Ciencia da Computacao da Unochapecó  
-
 Foi utilizado como base de gameplay o card game físico "Action Battle" criado por Rodrigo Oliveira de Oliveira.  
 
 
