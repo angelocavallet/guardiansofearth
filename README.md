@@ -2,11 +2,13 @@
 
 ## Sobre
 Repositorio do card game online Guardians Of Earth  
-Desenvolvido em 2016 para a monografia do curso de Ciencia da Computacao da Unochapecó  
+Desenvolvido em 2016 para a monografia do curso de Ciencia da Computação da Unochapecó  
 Foi utilizado como base de gameplay o card game físico "Action Battle" criado por Rodrigo Oliveira de Oliveira  
 
 
 ### Tecnologias
 O cliente do jogo foi desenvolvido em Unity com C#  
-O servidor é uma API Rest em PHP utilizando o Zend Framework 2 e Doctrine ORM  
+O servidor é uma API Rest em PHP utilizando o Zend Framework 2 e Doctrine2 ORM  
 A base de dados utilizada foi MySQL  
+  
+Atualmente está passando por um upgrade técnico
